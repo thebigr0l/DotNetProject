@@ -21,7 +21,7 @@ public class Ticket : Entity
     public static Ticket Create(User user, int userTicketsCount, DateTimeOffset now)
     {
         if (userTicketsCount >= MaxNumberOfTickets)
-            throw new MaxNumberOfTicketsExceededException();
+            throw new MaxNumberOfProductsExceededException();
 
         if (now == new DateTimeOffset(2024, 1, 1, 1, 1, 1, TimeSpan.Zero))
             throw new InvalidTicketCreatedAtDateException();
