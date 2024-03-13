@@ -2,4 +2,4 @@
 
 namespace DotNetBoilerplate.Core.Exceptions;
 
-public class MaxNumberOfTicketsExceededException() : CustomException("Max number of tickets exceeded.");
+public class MaxNumberOfProductsExceededException() : CustomException("Max number of products exceeded.");
