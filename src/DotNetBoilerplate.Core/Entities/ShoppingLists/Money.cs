@@ -2,7 +2,7 @@
 
 public class Money
 {
-    private static readonly List<string> Currencies = { "USD", "EUR", "GBP", "PLN" };
+    private static readonly List<string> Currencies = [ "USD", "EUR", "GBP", "PLN" ];
     public string Currency { get; private set; }
     public int Amount { get; private set; }
 
