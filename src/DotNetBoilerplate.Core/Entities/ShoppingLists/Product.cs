@@ -31,6 +31,7 @@ public class Product
     {
         Status = ProductStatus.Bought;
     }
+
     public void MarkAsNotBought()
     {
         Status = ProductStatus.NotBought;

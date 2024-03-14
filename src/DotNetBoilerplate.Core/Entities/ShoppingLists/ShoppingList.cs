@@ -35,12 +35,12 @@ public class ShoppingList
             CreatedAt = createdAt,
             Name = name,
             ShoppingDate = shoppingDate,
-            Products = { }
+            Products = []
         };
-
+        
         return shoppingList;
     }
-
+    
     public void AddProduct(Product product)
     {
         if (Products.Count >= MaxNumberOfProducts)
@@ -82,7 +82,6 @@ public class ShoppingList
     {
         var allProductsAreBoughtOrNotBought = Products
             .All(p => p.Status is ProductStatus.Bought or ProductStatus.NotBought);
-
         if (!allProductsAreBoughtOrNotBought)
             throw new AllProductsAreNotBoughtOrBoughtException();
 

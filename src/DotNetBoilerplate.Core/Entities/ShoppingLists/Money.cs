@@ -2,12 +2,12 @@
 
 public class Money
 {
-    private static readonly List<string> Currencies = [ "USD", "EUR", "GBP", "PLN" ];
+    private static readonly List<string> Currencies =  [ "USD", "EUR", "GBP", "PLN" ];
     public string Currency { get; private set; }
     public int Amount { get; private set; }
-
-    private Money() { }
-
+    
+    private Money() {}
+    
     public static Money Create(string currency, int amount)
     {
         if (!Currencies.Contains(currency))
@@ -19,7 +19,6 @@ public class Money
         {
             throw new ArgumentException("Amount must be greater than 0");
         }
-
         var money = new Money
         {
             Currency = currency,
