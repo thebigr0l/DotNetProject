@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{43C08FEF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBoilerplate.Tests.Integration", "tests\DotNetBoilerplate.Tests.Integration\DotNetBoilerplate.Tests.Integration.csproj", "{BAB51DD0-7955-4FF5-A1B3-FF66BBA92C90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBoiletplate.Tests.Unit", "tests\DotNetBoiletplate.Tests.Unit\DotNetBoiletplate.Tests.Unit.csproj", "{D102AD77-B151-4CAD-8994-5A146097FC86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBoilerplate.Tests.Unit", "tests\DotNetBoilerplate.Tests.Unit\DotNetBoilerplate.Tests.Unit.csproj", "{D102AD77-B151-4CAD-8994-5A146097FC86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

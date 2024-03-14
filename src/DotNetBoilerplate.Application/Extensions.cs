@@ -1,6 +1,9 @@
-﻿using DotNetBoilerplate.Shared.Commands;
+﻿using System.Runtime.CompilerServices;
+using DotNetBoilerplate.Shared.Commands;
 using DotNetBoilerplate.Shared.Events;
 using Microsoft.Extensions.DependencyInjection;
+
+[assembly: InternalsVisibleTo("DotNetBoilerplate.Tests.Unit")]
 
 namespace DotNetBoilerplate.Application;
 
